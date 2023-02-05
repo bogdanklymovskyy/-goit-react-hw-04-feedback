@@ -1,0 +1,17 @@
+.button {
+  width: 100px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &:hover {
+    border-color: green;
+    color: green;
+    transform: scale(1.04);
+  }
+}
